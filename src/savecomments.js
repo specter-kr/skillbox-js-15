@@ -5,6 +5,8 @@ export function saveComment(allComments){
 	const author = document.querySelector('.author-field');
 	const text = document.querySelector('.text-field');
 	const date = actualDate();
+	checkTags(author);
+	checkTags(text);
 	allComments.push({
 		author: author.value,
 		text: text.value,
