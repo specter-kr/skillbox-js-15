@@ -1,4 +1,5 @@
 import {actualDate} from './actualdate.js';
+import {checkTags} from './check-tags.js';
 
 export function saveComment(allComments){
 	const author = document.querySelector('.author-field');
